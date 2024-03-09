@@ -1,0 +1,52 @@
+
+1st Video ;)
+Sample program used in the demo
+First Hello World Program 
+In this video, we will discuss
+1. Basic structure of a C# program. 
+2. What is a Namespace. 
+Namespcae is used to organize your code and is the collection of classes, interfaces, delegates, enums and structs.
+
+3. Purpose of Main method. 
+Main Method is the entry point into your application
+
+2nd Video:)
+
+
+In this video, we will discuss
+Noted: C# lnguage is case sensitive
+1. Reading from the console
+2. Writing to the console
+3. Two ways to write to console
+     a) Concatenation
+     b) Place holder syntax -- Most preferred
+
+     3rd video :)
+
+     1)Boolean Data Types
+     when you need to store the value in your aplication realted to true or false then you use Boolean data type.
+     For example: Are you a student -> True or false
+     In C# Boolean data type stritly hold the true or false
+
+     2) Integral Data types
+     These are holds the  whole numbers, decimal percision not ppresent in integral data types
+
+    ->  numeric integral data types
+     sbyte	-128 to 127	Signed 8-bit integer	
+byte	0 to 255	Unsigned 8-bit integer	
+short	-32,768 to 32,767	Signed 16-bit integer	
+ushort	0 to 65,535	Unsigned 16-bit integer	
+int	-2,147,483,648 to 2,147,483,647	Signed 32-bit integer	
+uint	0 to 4,294,967,295	Unsigned 32-bit integer	System.UInt32
+long	-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807	Signed 64-bit integer	
+ulong	0 to 18,446,744,073,709,551,615	Unsigned 64-bit integer	System.UInt64
+nint	Depends on platform (computed at runtime)	Signed 32-bit or 64-bit integer	
+nuint	Depends on platform (computed at runtime)	Unsigned 32-bit or 64-bit integer	
+
+-> Floating point types
+
+If you want to hod the decimal ercision then you can use this data type
+Float  32 bit percision -> 7 digit
+Double   64 bit percision -> 15-16 digit
+
+decimal  128 bit data type   -> percision 28-29   siginifican digits

@@ -1,0 +1,42 @@
+
+4rth video;)
+
+In this video we learned these topics as follow:
+
+1) string 
+Sequence of chracters , enclosed within Double Qoutes, 
+Escape sequence  -> Normal Printable characters
+Non Printable Characters -> Line feed
+
+\n new line characters
+
+Verbatim litteral
+If you want to treat the Escape sequences as regular printable characters ,
+For example valid window path , want to print -> @"D:\C# Internship\C# rogramming\c#Begineers leval"
+
+
+5th video ;)
+
+In this video, we will discuss the common operators that are available in c# programming language.
+
+Assignment Operator =
+Arithmetic Operators like +,-,*,/,% 
+Conditional Operators like &&, ||
+Ternary Operator ?:
+Null Coalescing Operator ?? 
+
+6th video:)
+
+Reference type can have null value , but by default value type is non nullabale. 
+How to store Null value in a Value Type in C#
+To make valueable type (integer, float , double , bool , etc)  Nullable use ?
+why c# introduce this concpet of nullable value Tupe
+Ans: beacuse some times user not enter any value . e.g true , false and that time
+we use this concept and capabale of storing null value.
+and Dtabase does not have the concet of value type of reference type. you can store 
+Null in table of databse of any type. so need need of conversion in value type and reference type.
+Value types  divided into Two categories:
+i) Non Nullable value Type and 
+ii) Nullable Value Type
+
+there is no implicit conversion of Nullable Data type and Non nullable data type
