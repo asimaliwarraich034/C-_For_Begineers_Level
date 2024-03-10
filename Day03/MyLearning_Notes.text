@@ -1,0 +1,39 @@
+
+In this video we will learn
+1. Implicit conversions
+-> Implicit Conversion is done by the Compiler.
+i) WEhen there is no losss of information when conversion is done.
+ii)  If there is no possibility of throwing exception during conversion.
+For Example: Converting an int into float will not loss any data and no exception will be thrown.
+, hence an impicit conversion has been done.
+2. Explicit Conversions
+-> //cannot convert implicitly float into int.  float is much bigger than int.
+             //Fractional part will be missed . so Explicit conversion required.
+             // cast operator use for explicit conversion. cast operator 
+           // did not go through exception while convert class go throgh exception
+3. Difference between Parse() and TryParse()
+
+ // Another way to convert the data type into another format when there is data type in string method.
+ using the parse() method .
+ To convert string into any data type, we use the following syntax:
+data_type.Parse(string);
+Parse() receives one string parameter to be converted to the desired data type.
+Parse() returns the converted value.
+ format exception ; 
+ sting String_Number = "1000gh";
+ so variation of parse method there is trypass() method; TryPass() method is actually boolean if conversion
+ succefully done it returns the true otherwise return the false;
+
+ ->> Tryparse();
+
+ Syntax
+Use the following syntax to convert string into any variable.
+
+->>> data_type.TryParse(string, out output_variable);
+Parameters
+The TryParse() method receives two parameters. The first parameter is the string to be converted. 
+The second parameter is the variable to store the converted value.
+The out keyword is used before the second parameter.
+
+Return value
+The TryParse() method returns True or False value based on successful or unsuccessful conversion.

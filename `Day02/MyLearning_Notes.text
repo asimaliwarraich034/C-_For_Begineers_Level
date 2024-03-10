@@ -39,4 +39,11 @@ Value types  divided into Two categories:
 i) Non Nullable value Type and 
 ii) Nullable Value Type
 
-there is no implicit conversion of Nullable Data type and Non nullable data type
+there is no implicit conversion of Nullable Data type and Non nullable data type.
+
+Where as when converting float into int , we loss the fractional part and 
+alsoa possibility of overflow exception(float is much bigger data type than int). Hence, in this case an explicit 
+conversion is required. For explicit conversion we use the cast operator or 
+the convert class in c#.
+cast operator use for explicit conversion. cast operator 
+ did not go through exception while convert class go throgh exception
