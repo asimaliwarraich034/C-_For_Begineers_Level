@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Introductio_To_CSharp.Day03.DataTypes_Conversion</StartupObject>
+    <StartupObject>Introductio_To_CSharp.Day04.Arrays</StartupObject>
   </PropertyGroup>
 
 </Project>

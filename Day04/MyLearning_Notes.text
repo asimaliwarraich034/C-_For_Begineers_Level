@@ -1,0 +1,17 @@
+
+8th Video:) 
+
+In this part of the c sharp tutorial we will learn
+1. Arrays in c#
+2. Advantages and dis-advantages of arrays
+
+Arrays:
+If I want to store more thsn one values in variable thats not possible , then comes to the concept of an Array
+----> Advantages:
+i) Want to store the group of similar datatypes in a single varibale you can use the Arrays.
+ii) Arrays is strongly Typed in nature (Only store elements of similar data types).
+
+-----> Disadvantages:
+
+i ) When you fixed the size of  Array when it initialized it cannot grow anymore.
+ii) Rely on integral indexes , there is no better way to store and retrieve items of an array.
