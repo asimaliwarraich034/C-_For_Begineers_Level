@@ -12,8 +12,9 @@ namespace Introductio_To_CSharp._Day02
 
             // How to store Null value in a Value Type in C#. To make Nullable use  ?
 
-            // bool ? AreyouMajor = null;
-            bool? AreyouMajor = true;
+             bool ? AreyouMajor = null;
+            //bool? AreyouMajor = true;
+            //bool? AreyouMajor = false;
             if (AreyouMajor == true)
             {
                 Console.WriteLine("User is a Major");

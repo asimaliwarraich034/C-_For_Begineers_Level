@@ -1,0 +1,13 @@
+In this part of the c sharp tutorial we will learn
+1. if statement 
+2. If else statement 
+3. Difference between && and &
+4. Difference between || and |
+
+->&& is the logical AND operator. It evaluates to true if both operands are true.
+If the left operand of && evaluates to false, the right operand is not evaluated.
+->& evaluates both operands regardless of the result of the left operand.
+
+|| is the logical OR operator. It evaluates to true if at least one of the operands is true.
+if the left operand of || evaluates to true, the right operand is not evaluated.
+it evaluates both operands regardless of the result of the left operand.iT

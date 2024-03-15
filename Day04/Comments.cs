@@ -3,10 +3,10 @@
 using System.Reflection.Metadata;
 using System.Runtime.InteropServices;
 
-namespace Introductio_To_CSharp.Day04
+/*namespace Introductio_To_CSharp.Day04
 {
    class Comments
-    {
+    { */
 
         /*int[] EvenNumbers = { 2, 4, 6, 8, 10, 12, 14 };
            Console.WriteLine("Elemnet at Index 2 is: {0} " ,EvenNumbers[2]);*/
@@ -23,19 +23,19 @@ namespace Introductio_To_CSharp.Day04
              Friend_List[2] = "Muhhamd Sheraz";
              Console.WriteLine(Friend_List[1]); */
 
-        static void Main()
+        /*static void Main()
         {
-            SampleClass
-        }
+            SampleClass;
+        }*/
 
 
         /// <summary>
         /// This is a sample class and sample documentation 
         /// </summary>
-        public class SampleClass
+        /*public class SampleClass
         {
             
         }
     }
-}
+}*/
 
