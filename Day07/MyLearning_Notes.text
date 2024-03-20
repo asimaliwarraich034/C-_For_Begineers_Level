@@ -4,3 +4,20 @@
  print even numbers up to a target number entered by the user. 
 updating the loop variable to avoid creating infinite loops.
 
+
+-------------Video no 14 -----
+Understanding the logic of do whiloe loop 
+-- The While Loop ---
+i) while loop checks the condition first
+ii) If the condition is true, statements with in the are executed.
+ii) This process is recondition is repeated as long as the
+condition evaluates to true  .
+
+Noted: Don't Forget to updates the variable participating in the condition
+so the loo can end ,at some point.
+
+------- Do While Loop ----
+i) Checks the condition at the endof the loop.
+ii) This means that do while loop gurantedd 
+to execute at lease once time.
+iii) Do while loops are used topresent a menue to the user.
