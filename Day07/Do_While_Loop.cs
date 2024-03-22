@@ -1,12 +1,10 @@
-﻿
-
-namespace Introductio_To_CSharp.Day07
+﻿namespace Introductio_To_CSharp.Day07
 {
     class Do_While_Loop
     {
         static void Main()
         {
-            string UserChoice = String.Empty;
+            string UserChoice = string.Empty;
 
             do
             {
@@ -29,7 +27,7 @@ namespace Introductio_To_CSharp.Day07
                     }
                 } while (UserChoice != "YES" && UserChoice != "NO");
             } while (UserChoice == "YES");
-            }
+        }
 
     }
 }

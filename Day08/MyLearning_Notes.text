@@ -1,0 +1,23 @@
+ --------Video 15 -------------
+
+	The For Loop
+	
+	-> A For Loop is very similar to the while Loop.In a while Loop
+	We do the initialozation at one place, condition check at anther place ,
+	and modifying the variable at another place, where in For Loop has 
+	all of these at one place.
+
+	--- The Foreach Loop 
+	Is used to iterate through a collection 
+	When you dont know how many times you have to loop exactly ,
+	it repeates as long as elements in the 
+	Foreach Loop helps in index not in range exception 
+
+	Break statement used in two context:
+	i) In Switch statements if break comes in any case, the control will jump out of the switch statement.
+	ii)If any statements of break comes in For loop it get rid of the For lop
+	and rest of the loop will not be executed.
+
+	Use case of continue keyword 
+	when continue keyword executed itskip the rest of the line of the for loop and 
+	go back in foor loop and start again
