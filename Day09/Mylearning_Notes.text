@@ -1,0 +1,26 @@
+------------ Video No 16 --
+
+Methods ,,,,,,,
+
+i)Methods are also called as functions. These terms are used intercahangeably.
+ii) Methods are useful because they allow ypu to define ypur logic once, and use it many places.
+ii) Methods makes the maintenance of your applixation easier.
+
+Static vs Instance Methods
+Instance method and static method 
+
+e.g -> Even Even number function -> ( Instance method)
+having Public acces modifier , not have static keywords 
+Whereas Main method have static keyword
+
+instance is nothing but the object of a class
+if you have to invoke an instance method you need, you need to create 
+an instance of that class, and class you inviked this method using 
+the Dot operator 
+
+Basic difference b/w Instance methods and static method 
+
+Multiplke instance of a class can be created (or initialized)
+and each instance has its own searted methods.
+When a method is static , there are no instance of that method,
+you only invoked only by the deffination of the static method.
