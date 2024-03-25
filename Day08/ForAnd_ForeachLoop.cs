@@ -2,7 +2,7 @@
 
 namespace Introductio_To_CSharp.Day08
 {
-    class ForLOOP_ForEachLoop
+    class ForAnd_ForeachLoop
     {
         static void Main()
         {
