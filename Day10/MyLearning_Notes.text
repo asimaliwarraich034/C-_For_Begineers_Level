@@ -27,9 +27,28 @@
 
 	4) Parameters Array 
 	
-	 let you  specify  a method paramter that takes a variable numbr of arguments.Comma separated list of elements. 
+	 let you  specify  a method paramter that takes a variable numbr of arguments.
+	 Comma separated list of elements. 
 	Params keyword should be last one in a method declaration,, and only one paramas
 	keyword is permitted in a method declaration.
 
 
+	----------- Video 18 -------------
 
+	namespaces in C# and how they can be used to organize code and avoid name clashes
+	in large projects. It also demonstrates how to use alias directives to create 
+	shorter namespace names and avoid ambiguity.
+	In this part of the c sharp tutorial we will learn 
+1. Namespace basics 
+2. Using alias directive
+3. Avoiding namespace ambiguity
+4. Different namespace members
+
+Both namespace having class there is an ambiguaity, and there is 
+TWO ways to resolve this Ambiguity
+i) One is using Fuilly Quailfied name
+ii) Namespace Aliase Directives 
+
+Namesace don't correspond to file, directory or assesmbly names. They could be
+written in separate files and / or separate assemblies and still belong
+to the same namespaces.
