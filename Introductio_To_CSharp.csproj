@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Introductio_To_CSharp.Day09.Methods_InCsharpp</StartupObject>
+    <StartupObject>Introductio_To_CSharp.Day10.Methods_Parameters</StartupObject>
   </PropertyGroup>
 
 </Project>

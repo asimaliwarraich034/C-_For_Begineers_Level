@@ -1,0 +1,35 @@
+--------------Video ---------
+
+	Different types of Methods parameters 
+	......4 Types of Methods Parameters.....
+	1) Value parameters 
+	2) Reference Parameters
+	3)Out parameters 
+	(4) Parameter Array 
+
+	Methods Parameters vs Mehtods Arguments
+
+
+	Diference between Pass by value/reference 
+
+	1) Pass by value 
+	Variables are pointing to different memory Location.Operations on one variable 
+	will not affect the value of other variable.
+	
+	2) Refference value 
+
+	Both variables Pointing to the same memory loacation.Operation on one variable will affect 
+	the value of other variable.
+
+	3) Out parameters 
+
+	When you want a method to return more than one value
+
+	4) Parameters Array 
+	
+	 let you  specify  a method paramter that takes a variable numbr of arguments.Comma separated list of elements. 
+	Params keyword should be last one in a method declaration,, and only one paramas
+	keyword is permitted in a method declaration.
+
+
+
