@@ -52,3 +52,30 @@ ii) Namespace Aliase Directives
 Namesace don't correspond to file, directory or assesmbly names. They could be
 written in separate files and / or separate assemblies and still belong
 to the same namespaces.
+
+..............  Video 19 ...........
+Class:
+want to Create the complesx custome types, you can  use class
+A class consist of data and behavior. Class data is represented by it's
+fileds and behavior is represented by methods.
+
+ -> Constructors:
+Constructars used to  initialzes class fields ,Same name as of class, 
+and it Does not return value, but it can take Parameters .
+Called automatically when you create an instance of class.
+
+
+->Default Parameter less Constructor
+
+->Overload Constructor 
+same name of another constructor toa Particular class . Overload a constructor 
+with a number and type of parameters.
+- > Distructors
+Same name as of class name, but dont take any parameters , initilize
+using the ~(tild sign).
+Using clean up any resources your class holding during the lifetime, called automatically
+by the garbage collector 
+
+This Keyword:
+
+Refers to an instance of this class to an object of the class
