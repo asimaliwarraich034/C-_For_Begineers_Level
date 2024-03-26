@@ -79,3 +79,19 @@ by the garbage collector
 This Keyword:
 
 Refers to an instance of this class to an object of the class
+
+
+-------------------------=============---------------------------------------------------------------
+
+------------  -----------------------     Video 20 -------------------------------------------------------
+
+-------------- >   PI IS StaticAnd Radius id is an instance Field  <...................
+
+->When you make static then only one copy of that PI will be shared by
+all the objects that you create
+->if something not change in pair obejctive basis then wise to mark them static
+-> You can not use "this(instance of a class) keyword" " in static filed
+you can use name of the class
+->static members invoke using name of a class, and instance members are invke
+using the instance or object of a class
+static constructor called before the intance  consstructor called
