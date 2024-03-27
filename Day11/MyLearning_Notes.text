@@ -1,0 +1,17 @@
+
+.................................Video 21 ..........
+1) Inheritence
+Common code into the base class and specific code in the Respective derived classes.
+Derived class is the specialization of the base class 
+Promotes Reusability and Inheritence save the time and also Prevant from unwanted errors with application.
+
+C# Support Onlyy Single Class Inheritence
+You can specify only one base class at a given time
+But Multilevel Inheritence available in C#
+C# Support Multiple Interface Inheritence at the same Time
+Base classes are automatically initailted before the derived class
+Parent class constructor executed before child class constructor
+
+
+one constructor takes parameter and another not takes parameter
+overload Constructor
