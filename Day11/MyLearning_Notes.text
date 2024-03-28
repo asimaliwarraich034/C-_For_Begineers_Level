@@ -15,3 +15,11 @@ Parent class constructor executed before child class constructor
 
 one constructor takes parameter and another not takes parameter
 overload Constructor
+
+
+------ Video No# 22-------
+1)Method hiding
+2. Invoke hidden base class members
+---> Using base Keyword Inside Derived Class Method:
+-----------> Using Type Cast to Base Class:
+If you want to hide base class memeber then use the NEW keyword 
