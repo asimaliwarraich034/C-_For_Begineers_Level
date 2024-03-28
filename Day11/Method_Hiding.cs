@@ -1,5 +1,7 @@
 ﻿
 
+using System.Net.NetworkInformation;
+
 namespace Introductio_To_CSharp.Day11
 {
     
@@ -23,9 +25,9 @@ namespace Introductio_To_CSharp.Day11
         public new void PrintDetails() // Hiding base class members
         {
             Console.WriteLine("FullTimeWorker Details is Here:");
-          // base.PrintDetails(); // Again calling the Base class Method
+            // base.PrintDetails(); // Again calling the Base class Method
 
-            ((Worker_Details)this).PrintDetails();
+            ((Worker_Details)this).PrintDetails(); //Using Type Cast to Base Class:
             Console.WriteLine("Monthly Salary = {0}" , Monthly_Salary);
         }
 
