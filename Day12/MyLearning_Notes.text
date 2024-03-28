@@ -1,0 +1,16 @@
+
+--------------   Video 23 ----------------------
+
+-> Ploymorphism
+
+---Ovverriding Virtual Methods
+------Polymorphism 
+Polymorphism Enabales you to invoked Derived class Methods through Base class 
+Reference varaibles at run Time.
+
+Base class methods us declared virtual , and in the derived class
+we ovverride the same method.
+
+the virtual keyword indicated that the method can be overridden in any derived class.
+
+
