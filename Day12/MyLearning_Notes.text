@@ -28,3 +28,17 @@ In a Method Hiding Base Class Reference variable Pointing
 to the Child Class ObJect, will invoke the Hidden Method in the child class.
 
 
+-> Method ovverloading
+Method can be Ovverloaddeed On the number of Parameters
+Can be Ovverloaded on the basis of Types Parameters
+
+->Methods Ovverloading and Function Ovverloading terms are Interchangeably.
+->Methods Ovverloading allows a class to have multiple methods within the 
+same name, but with a differnet signiture. So in C# Functions can be overloaded 
+based on the number, type(int,float,etc) and kind(value,Reference, or Out) of parameters.
+
+The Signiture of a method consists of the name of the method, and the type, kind(value,
+ref, or output) and the number of its formal parameters.
+The signiture of a method does not include the return type
+and the params modifier.So it not possible tooverload a function ust based on the return type of a arams modifier.
+
