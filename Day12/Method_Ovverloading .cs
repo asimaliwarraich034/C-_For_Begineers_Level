@@ -1,11 +1,14 @@
 ﻿
 
-/*namespace Introductio_To_CSharp.Day12
+namespace Introductio_To_CSharp.Day12
 {
      class Method_Ovverloading
     {
         public static void Main()
         {
+            int sum;
+            Add(12, 22 , out  sum);
+            Add(10, 23 ,5);
             
         }
 
@@ -19,10 +22,10 @@
 
         public static void Add(int FN, int SN, int Ln)
         {
-            Console.WriteLine("Sum = {0}", FN + SN);
+            Console.WriteLine("Sum = {0}", FN + SN + Ln);
         }
 
-        public static void Add(int FN, int SN, out int sum)
+        /*public static void Add(int FN, int SN, out int sum)
         {
             sum = FN + SN;
         }
@@ -49,6 +52,6 @@
         public static int  Add(int FN, int SN, float Ln)
         {
             Console.WriteLine("Sum = {0}", FN + SN + Ln);
-        }
+        }*/
     }
-} */
+} 
