@@ -14,3 +14,17 @@ we ovverride the same method.
 the virtual keyword indicated that the method can be overridden in any derived class.
 
 
+-----------------   Video No 24 -----------------
+
+- > Method Ovveriding
+
+In a Method Ovveriding Base Class Reference variable Pointing 
+to the Child Class Obect, will invoke the Ovveriden Method in the child class.
+
+
+- > Method Hiding
+
+In a Method Hiding Base Class Reference variable Pointing 
+to the Child Class ObJect, will invoke the Hidden Method in the child class.
+
+
