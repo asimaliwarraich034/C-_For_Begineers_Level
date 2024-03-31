@@ -62,3 +62,9 @@ then we make use of properties and Programming languages that does not
 suport properytioes we use this Getter and Setter Method 
 To Encapsulate and Protect Fields.
 
+
+-------------------------------------------------------------------------------------------------
+-------------------------------------  Video no 27 ------------------------
+
+Replace all the Getter and Setter methods with Properties with get and set accessors
+Read the value GetAccessorinvoke the property
