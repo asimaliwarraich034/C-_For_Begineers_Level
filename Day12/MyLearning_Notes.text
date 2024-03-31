@@ -28,9 +28,14 @@ In a Method Hiding Base Class Reference variable Pointing
 to the Child Class ObJect, will invoke the Hidden Method in the child class.
 
 
--> Method ovverloading
+
+------------------  Video no 25 ----------------
+
+
+-> Method ovverloading and Function Overloading 
 Method can be Ovverloaddeed On the number of Parameters
 Can be Ovverloaded on the basis of Types Parameters
+
 
 ->Methods Ovverloading and Function Ovverloading terms are Interchangeably.
 ->Methods Ovverloading allows a class to have multiple methods within the 
@@ -41,4 +46,19 @@ The Signiture of a method consists of the name of the method, and the type, kind
 ref, or output) and the number of its formal parameters.
 The signiture of a method does not include the return type
 and the params modifier.So it not possible tooverload a function ust based on the return type of a arams modifier.
+
+-------------------- Vieo no 26 ------------
+Marking the class fields Public and exosing to the external  world is bad,, as you 
+will not have control over what gets assigned and returned.
+
+Problem with public field:
+1- ID SHOILD always be Non - Negative number
+2 - Name cannot be set to NULL
+3 - If Student Nmae is missing 'No Name" should be returned
+4 - PassMark should be read only"
+
+If you want to have better control, andif you want to Encapsulate those fields
+then we make use of properties and Programming languages that does not 
+suport properytioes we use this Getter and Setter Method 
+To Encapsulate and Protect Fields.
 
