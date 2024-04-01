@@ -6,3 +6,45 @@
 - Example of creating a struct, similar to creating a class
 - Usage of properties to encapsulate private fields
 - Introduction to object initializers syntax in C# 3.0 for initializing structs and classes
+
+
+
+.........................Video No 29 ....................
+
+Difference B/W Classes and Structures
+_> Struct is a vlaue Type where as a class is a reference Type.
+Built in data types are struct value types, like int,float,double , enum etc.
+Classes interfaces and delegates etc are Reference Type.
+-> Structs are stroed on the Stack, where as clsses are stored on the Heap.
+
+-> Value Types hold their value in a memory where they are declarted,
+but reference type holda reference to an object in a memory.
+
+-> Value types are detroyed Immediately after the scope is lost,
+where as reference types only the reference variable is destroyed after
+the scope is lost.The object is later destroyed by the Garbage 
+collector.
+
+-> When you copy a struct into another struct, a new copy of that struct
+gets created and modification on one struct will not affect the values 
+contained by the other struct.
+
+-> When you copy a class into another class , we only geta copy of the 
+reference variable. Both the reference variable point to the same object
+on the heap. So, operation on one variable  will affect the value 
+contained by the other reference variable.
+
+-> Structs Can't have destructor , but Classes can have destructors
+
+-> Structs can't have expilcit parameter less constructor where as a class can.
+
+
+-> Struct can't inherit from another class where as a class can, Both 
+structs and classes can inherit from an interfaces.
+
+-> Example of structs in the .NET Freamework -int(System.Int32),
+double(System.Double) etc.
+
+
+Noted: A class (sealed) or a struct cannot inherit from another struct.
+Struct are sealed type.
