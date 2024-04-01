@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Introduction_To_CSharp.Day12.ReadWritePropertiesAutoComplete</StartupObject>
+    <StartupObject>Introductio_To_CSharp.Day13.Strructs_IN_CSharp</StartupObject>
   </PropertyGroup>
 
 </Project>

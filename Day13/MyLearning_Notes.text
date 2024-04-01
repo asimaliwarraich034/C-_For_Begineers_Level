@@ -1,0 +1,8 @@
+
+---------------------------Video no 28 ----------------
+
+- Introduction to structs in C#
+- Similarities between structs and classes: both can have private fields, public properties, constructors, and methods
+- Example of creating a struct, similar to creating a class
+- Usage of properties to encapsulate private fields
+- Introduction to object initializers syntax in C# 3.0 for initializing structs and classes
