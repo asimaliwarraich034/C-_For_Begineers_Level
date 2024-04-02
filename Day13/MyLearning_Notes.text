@@ -48,3 +48,29 @@ double(System.Double) etc.
 
 Noted: A class (sealed) or a struct cannot inherit from another struct.
 Struct are sealed type.
+
+-----------------------------------------------------------------------------------------
+
+------    Video No 30 ----------------------
+->   Interfaces 
+
+-> We create Interfaces using interface keyword, just like classes,
+interfaces also contains propertoies, methods,delegates or events, but
+only declarations and no imlementatation
+
+-> It is comppile time error to provide implementatation for any interface member.
+-> Interface members are public by defaualt, and they don't allow explicit access modifiers.
+-> Interfaces cannot contain fields.
+
+-> If a class  inherit from an interface,it must provide impolementation for all
+interface members.Otherwise, we get a compiler error.
+
+-> A class can  inherit from more than one interface at the 
+same time, but where as, a class cannot inherit from more than once class at the same time.
+
+-> Interfaces can inherited from other interfaces . A class that inherit
+this interface must  provide implementation fro all interface members
+in the entire interface inheritence chain.
+
+-> We cannot create an instance of an interface, but an interface varaibale can 
+point to a derived class object.
