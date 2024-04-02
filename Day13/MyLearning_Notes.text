@@ -110,3 +110,27 @@ from the base abstract
 
 Option2: If the class does not wish to provide the implementation for the the
 abstarct members inherited from the  abstract class, then the class has to be marked as abstract
+
+---------------------------------------------------------------------------------------------------------------
+
+-----------------------------Video No 33-----------------------------
+
+Abstract Classes Vs Interfaces
+
+-> Abstract classes can have implementations for some of its members(Methods),
+but the interface can't have implementation for any of it's functions.
+
+
+->Interface members are public by defaualt can't have  access modifeir Whereas Abstract class members
+are Private by Default and can have access modifier
+
+->No fields in Interface Whereas Abstarct class can have fields
+
+-> An interface can inherit from another interface only and cannot 
+inherit froman abstract class, where as ab abstract class can inherit from 
+another abstract class or another interface.
+
+Can inherit from multipke abstract classes at same time, but inherit from multiple
+interfaces atthe same time
+
+
