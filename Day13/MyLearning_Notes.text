@@ -78,6 +78,7 @@ point to a derived class object.
 -------------------------------------------------------------------------------------------------
 
 ------------- Video No 31 -------------
+Explicit Interface Implementation
 Qestion:
 A class inherit from 2 interfaces and both the interfaces have the same method name.
 How shopiuld the class implement the method for both the interfaces?
@@ -90,3 +91,22 @@ Note:
 Want to make one interface method default, then implement that
 method normally and the other interface method explicitly. This makes
 the default method to accessibl through the class instance.
+
+-------------------------------------------------------------------------
+
+---------------    Video No 32 ---------------------------------------------
+
+Abstract Classes 
+
+-> The abstract keyword is used to create the Abstract class
+-> The Abstract class is incomplete and hence cannot be implemented.
+->  An abstract class can only be used as base class.
+An Abstract class cannot be sealed.
+-> An Abstract class may contain abstracty members(methods, properites,indexes and event, etc)
+, but not mendatory
+-> If  a class is inherited an abstract class, there are 2 options
+Option1: Provide the implementation for all the abstract members inherited
+from the base abstract
+
+Option2: If the class does not wish to provide the implementation for the the
+abstarct members inherited from the  abstract class, then the class has to be marked as abstract

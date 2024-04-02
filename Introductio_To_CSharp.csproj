@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Introductio_To_CSharp.Day13.Explicit_Interface_Implimentation</StartupObject>
+    <StartupObject>Introductio_To_CSharp.Day13.Abstract_Classes</StartupObject>
   </PropertyGroup>
 
 </Project>
