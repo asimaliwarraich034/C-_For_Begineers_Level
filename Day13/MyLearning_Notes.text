@@ -74,3 +74,19 @@ in the entire interface inheritence chain.
 
 -> We cannot create an instance of an interface, but an interface varaibale can 
 point to a derived class object.
+
+-------------------------------------------------------------------------------------------------
+
+------------- Video No 31 -------------
+Qestion:
+A class inherit from 2 interfaces and both the interfaces have the same method name.
+How shopiuld the class implement the method for both the interfaces?
+
+
+In order to invoke the Explicit Interface Implementation use the 
+Interface reference variable
+
+Note:
+Want to make one interface method default, then implement that
+method normally and the other interface method explicitly. This makes
+the default method to accessibl through the class instance.
