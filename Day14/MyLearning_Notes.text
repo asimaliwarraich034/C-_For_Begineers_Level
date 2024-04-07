@@ -1,0 +1,18 @@
+
+
+......................................Video no 34.........................
+
+Problem With Multiple class inheritence
+
+
+-> Class B and C inherit from class A
+-> Class D inheritfrom both B and C
+-> If a method in D callasa method defined in A ( and does not ovverirde the method),
+ and B  and c have ovveride that method differently, then frolm 
+ which class does it inherit:	B , or C?
+
+ This ambiguity is called as Diamond problem.
+
+ -------------------------------------------------------------------------------------------------------
+
+ .........................................Video No 35..............................................
