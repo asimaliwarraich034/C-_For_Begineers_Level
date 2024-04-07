@@ -1,0 +1,23 @@
+
+-------------------------------------Video No 36------------------------
+-> Basics of Delegates
+-> A delegate is a type safe function pointer. That is, it holds a 
+reference (pointer) to a function.
+
+Mean delegate points to a function and then when you invoke
+this delegate the function will be invoked
+Delegates give us lot of flexibilty in real-time projects
+
+-> The siginiture of the delgates must match the signiture of the function
+the delgate points to, otherwise you get a compiler error.this is the reason
+delegates are called as type safe function pointer.
+
+-> Except the delegate keyword the syntax of the Delegate very much 
+similar to a method
+
+
+
+
+
+
+

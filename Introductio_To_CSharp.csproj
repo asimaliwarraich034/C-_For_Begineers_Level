@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Introductio_To_CSharp.Day14.MultipleClass_Inheritence_Using_Interfaces</StartupObject>
+    <StartupObject>Introductio_To_CSharp.Day15.Delegates</StartupObject>
   </PropertyGroup>
 
 </Project>
