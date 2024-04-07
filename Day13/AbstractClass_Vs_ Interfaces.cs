@@ -1,6 +1,6 @@
 ﻿
 
-namespace Introductio_To_CSharp.Day13
+/*namespace Introductio_To_CSharp.Day13
 {
     public abstract class new_Person
     {
@@ -9,10 +9,11 @@ namespace Introductio_To_CSharp.Day13
         {
 
         }
-    }
+    }*/
 
     // Interface not have implementation only declaration
-    interface MyInterface
+
+    /*interface MyInterface
     {
         // No fields in Interface
         int Name;
@@ -28,4 +29,4 @@ namespace Introductio_To_CSharp.Day13
 
         }
     }
-}
+}*/
