@@ -14,6 +14,19 @@ delegates are called as type safe function pointer.
 
 -> Except the delegate keyword the syntax of the Delegate very much 
 similar to a method
+-------------------------------------------------------------------------------------------------
+
+------------------------------------Video No 37-------------------------------
+
+In this part we will create an employee class which form the basis for using delegates.
+This is the hard codeed logic we only promote to the experience not reusable 
+
+Next video we see by using delegates to allow users to plug in their own logic.
+Delegates provide flexibility in passing methods as parameters to other methods.
+
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------Video No 38------------------------
 
 
 

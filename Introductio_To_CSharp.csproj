@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Introductio_To_CSharp.Day15.Delegates</StartupObject>
+    <StartupObject>Introductio_To_CSharp.Day15.Demo_Delegates_Usage</StartupObject>
   </PropertyGroup>
 
 </Project>
