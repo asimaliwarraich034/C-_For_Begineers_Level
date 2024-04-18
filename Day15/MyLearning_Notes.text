@@ -30,6 +30,30 @@ Delegates provide flexibility in passing methods as parameters to other methods.
 -> DeLegates are extensively used by Frameworks Developers
 And want the classes and methods are reusable and this is posible with 
 the help of delegates.
+--------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------Video No 39--------------------------
+-> Multicast Delegates
+A Multicast delegate is a delegate that has reference to more than 
+one function. When you invoke a multicast delegate, all the delegate is 
+pointing to, are invoked.
+
+-> Thete are two ways to create a multicast delegates, Depending on approach
+
+i) + or += to register a method with delgate
+ii) - or -= to unregister a method with delegate
+
+Note: A multicast delegate, invokes the method in the invokation list,
+in the same order in which they are added.
+
+ Let's Assume if function going to return some value , then the delgates 
+ have the same signiture as point to the functions respectively
+ and if ther delegates is multicast delegate, only the value of
+ the last invoked method will be returned. Along the same lines, if the delgate
+ has an out parameter , the value of the out parameter , will be the value
+ assigned by the last method.
+
+
 
 
 
