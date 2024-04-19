@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Introduction_To_CSharp.Day15.Continue_Delegates</StartupObject>
+    <StartupObject>Introductio_To_CSharp.Day16.ExceptionHandling</StartupObject>
   </PropertyGroup>
 
 </Project>

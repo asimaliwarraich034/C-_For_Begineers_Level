@@ -1,0 +1,33 @@
+
+
+Video No 40 
+Exception Handling in C#
+
+An Exception is an unforcean error that occur when a program is running.
+examples:
+Trying to read from a file that does not exist, throws FileNotFoundException.
+Trying to read from a Dtabase table that does not exisist, throws a SqlException.
+
+Showing actual unhandled Exception to end user is bad for two reasons.
+1. User will be annoyed as they are crytic and does not make much sense 
+to end user.
+2. Exception contain information, that can be used for hacking into your application.
+
+ 
+An exception is actually a class that derives from System.Exception class.
+The System.Exception class has several useful properties, that provide valuable
+information about exception.
+->Message: Get the message that describes the current exception
+->Stack trace:provide the line number in the method where the excetip occur 
+  
+We can handle exception using the constructor "try"
+put the code into try bock  which 
+is possibly throgh the exception.
+
+System.Exception is the base class of all exceptions we have.
+
+
+Fiannaly block:clean and free resources that the class was holding 
+onto during the program execution.
+finally block is guranteed to exceute, irrespectively of whether there is an 
+exception or not.
