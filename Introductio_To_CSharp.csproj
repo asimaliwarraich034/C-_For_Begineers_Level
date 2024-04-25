@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Introductio_To_CSharp.Day16.ExceptionHandling</StartupObject>
+    <StartupObject>Introductio_To_CSharp.Day16.InnerException_Handling</StartupObject>
   </PropertyGroup>
 
 </Project>

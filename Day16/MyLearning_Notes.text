@@ -31,3 +31,17 @@ Fiannaly block:clean and free resources that the class was holding
 onto during the program execution.
 finally block is guranteed to exceute, irrespectively of whether there is an 
 exception or not.
+
+------------------------------------------------------------------
+ ----------------------  Video No 41 -----------------------------
+ The InnerException property returns the Exception instance that
+ caused the current exception.
+
+ To retain the origional exception pass it as a parameter to the 
+ constructor, of the current exception.
+
+Always check if inner excetion is not null before accessing
+any property of the inner exception object
+else , you may get Null Reference exception
+
+To get the type of Innerexception use the GetType() method.
