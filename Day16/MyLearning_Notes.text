@@ -75,3 +75,14 @@ then overload the cons Auctor accordingly.
 If you want your Exception class object to work across application domains, then the object must be serializable. 
 To make your exception class serializable mark it with Serializable attribute and provide a constructor that invokes the base Exception class constructor that takes in Serializationinfo and StreamingContext objects as parameters.
 Note: It is also possible to provide your own custom serialization, which will discussin a later session.
+
+----------------------------------------------------------
+---------------------------Video No 43-----------------------------
+
+-> Abuse of Exception Handling 
+Exceptions are unforeseen errors that occur when a program is running. 
+For example, when an application is executing a query, the database connection is lost.
+Exception handling is generally used to handle these scenarios.
+
+Using exception handling to implement program logical flow is bad 
+and is termed as exception handling abuse.
