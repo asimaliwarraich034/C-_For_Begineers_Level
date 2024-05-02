@@ -3,3 +3,10 @@ Enums_Demo:
 Understand the purpose of enums and the problems of not using enums
 using integeral numbers whuch is Extremely confusing 
 which number respond to which value.
+
+Enums are strongly tyed constants.
+
+if a program uses set of integrl numbers, consider replacing
+them with enums, which makes the prgram more
+Readable
+maintainable
