@@ -86,3 +86,13 @@ Exception handling is generally used to handle these scenarios.
 
 Using exception handling to implement program logical flow is bad 
 and is termed as exception handling abuse.
+-----------------------------------------
+---------------------Video no 44--------------------
+
+In this Session of Soloved excetion handling abuse we use the 
+programming Techniqueand we are avoiding the exception from unnecessary happening
+Use the Trypass method rather than Convert Method (which allow the exceptions
+ to happen) whereas trypass method will return the true or false depending 
+ on the succes or failur of the conversion 
+
+

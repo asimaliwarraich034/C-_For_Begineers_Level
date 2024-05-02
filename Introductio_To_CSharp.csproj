@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Introductio_To_CSharp.Day16.Abuse_ExcetionHandling</StartupObject>
+    <StartupObject>Introductio_To_CSharp.Day16.Solved_Abuse_ExceptionHandling</StartupObject>
   </PropertyGroup>
 
 </Project>
