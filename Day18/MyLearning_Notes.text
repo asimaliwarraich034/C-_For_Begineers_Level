@@ -17,3 +17,18 @@ Type members can have all the access modifiers, where as types can have only 2 (
 Note: Using regions you can expand and collapse sections of your code either manually, 
 or using visual studio Edit -> Outlining-> Toggle All Outlining
 
+--------------------------------
+Video No 49
+
+Access modifiers in C# are used to specify the scope of accessibility of a member of a class or type of the class itself.
+there are 5 Access Modifiers in C#
+1. Public
+2. Private
+3. Protected
+4. Internal
+5. Protected Internal
+Private members are available only with in the containing type, where as public members are available any where. There is no restriction.
+Protected Members are available, with in the containing type and to the types that derive from the containing type.
+
+
+
