@@ -49,6 +49,11 @@ An Assembly contaion intermediate language of your source code.
  in which it is declared, or from which  derived class in another assembly.
  Combination of protected and internal. 
 
+ ------------------------------------------------------------------------------
+ Video No 51 
+ Types(Classes, structures, enums, delegates and Interfaces) have defaualt Acess Modifiers 
+ is internal 
+ While Type members(Methods,fields and properties) having the default Acess modifiers is Private.
 
 
 
