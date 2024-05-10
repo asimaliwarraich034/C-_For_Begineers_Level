@@ -30,5 +30,25 @@ there are 5 Access Modifiers in C#
 Private members are available only with in the containing type, where as public members are available any where. There is no restriction.
 Protected Members are available, with in the containing type and to the types that derive from the containing type.
 
+------------------------------------------------------------------------------------
+              video No 50 
+-> Internal And Protected Internal Access Modifiers
+
+** A members with internal access modifiers is available with in the 
+containing assembly.It's compile time error to access, an internal 
+member from outside the containg assembly.
+
+In .Net when we Compile a project an assesmbly is generated. 
+Assesmbly is of two types(executable and dlls).
+-> Console and window appllications genertated .exe and Class libraray and 
+web applications generated .dll.
+An Assembly contaion intermediate language of your source code.
+
+***
+ Protected Internal members can be accessed by any code in the assembly
+ in which it is declared, or from which  derived class in another assembly.
+ Combination of protected and internal. 
+
+
 
 
