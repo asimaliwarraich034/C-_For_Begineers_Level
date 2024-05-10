@@ -1,0 +1,19 @@
+
+Video No 52
+-> Attributes
+Attributes allow you to add declarative information to your programs.
+This information can then be queried at runtime using reflection
+[obsolete] class which inherit from system.attribute class
+is used to show the compilation warning And makes the types 
+and Types members outdated
+
+Severak predefined attributes provided by .NET . It is also possible
+to create your own custome Attribnuted.
+
+i) Obsolete: makes the types 
+and Types members outdated
+ii) WebMethod: To expose a method as an XML Web services method
+iii) Serializable: Indicate a class can be serialized.
+
+It is possible to cutomize the attribute using parametrs.
+

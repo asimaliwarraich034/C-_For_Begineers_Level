@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Introductio_To_CSharp.Day17.Enums_Concepts</StartupObject>
+    <StartupObject>Introductio_To_CSharp.Day19.Attributes</StartupObject>
   </PropertyGroup>
 
 </Project>
