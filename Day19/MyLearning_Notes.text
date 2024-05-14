@@ -1,4 +1,4 @@
-
+﻿
 Video No 52
 -> Attributes
 Attributes allow you to add declarative information to your programs.
@@ -17,3 +17,32 @@ iii) Serializable: Indicate a class can be serialized.
 
 It is possible to cutomize the attribute using parametrs.
 
+---------------------------------------------------------------------
+----------Video No 53 
+Reflection:
+
+Reflection is the ability of inspecting an assemblies' metadata at runtime. 
+It is used to find all types in an assembly and/or dynamically invoke methods in an assembly.
+Uses of reflection:
+﻿﻿﻿When you drag and drop a button on a win forms or an asp.net application.
+The properties window uses reflection to show all the properties of the Button class. 
+So, reflection is extensively used by IDE or a Ul designers.
+
+﻿﻿﻿Late binding can be achieved byusing reflection. You can use reflection to dynamically 
+create an instance of a type, about which,woon't have any information at compile time.
+So, reflection enables you to use code that is not available at compile time.
+
+﻿﻿﻿Consider an example where we have two alternate implementations of an interface. 
+You want to allow the user to pick one or the other using a config file. 
+With reflection, you can simply read the name of the class whose implementation 
+you want to use from the configfile, and instantiate an instance of that class.
+This is another example for late binding using reflection.
+
+late Binding: creating an instance of a class at runtime rather than 
+at compile time
+Reflection has a special type.class which is present in namespace.
+
+In .Net every Type is directly and indirectly inherit from system.object
+And system.object defines four methods(
+i) getTye,ii) gethashcode , iii) equal iV) to string 
+And all types in .Net  will have them in output of method reflaction.
