@@ -32,3 +32,11 @@ Why should you override ToString Method?
 ToString is a common formatting method in . NET. 
 It converts an object to its string representation so that it is 
 suitable for display. 
+-----------------------------------------
+Video N0 59
+
+Convert. ToString() handles null, while ToString() doesn't, and throws a NULL
+Reference exception.
+
+Depending on the type of the application, architecture 
+and what you are trying to achieve, you choose one over the other
