@@ -40,3 +40,16 @@ Reference exception.
 
 Depending on the type of the application, architecture 
 and what you are trying to achieve, you choose one over the other
+-----------------------------------------------------------
+
+Video No  60
+String and StringBuilder
+
+Sytem.String is immutable while StringBuilder is Mutable 
+String class is present in System namespace  while StringBuilder is present 
+in the System.Text namespace 
+
+Using StringBuilder our program performance little Better it does not 
+create unnnecessary string object 
+Antime heavy string manipulation of string involved always uyse String Builder 
+rather than  Strings 
