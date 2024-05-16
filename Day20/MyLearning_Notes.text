@@ -24,4 +24,11 @@ To operate with string data type
 bool Equal - Calculator.AreEqual<string>("A", "B");
 In this example, we made the method generic. Along the same lines, it is also possible 
 to make classes, interfaces and delegates generic.
+--------------------------------------------------------------
 
+.............Video No 57
+Why should you override ToString Method?
+
+ToString is a common formatting method in . NET. 
+It converts an object to its string representation so that it is 
+suitable for display. 

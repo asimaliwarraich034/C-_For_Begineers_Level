@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Introductio_To_CSharp.Day20.Generics</StartupObject>
+    <StartupObject>Introductio_To_CSharp.Day20.override_ToString_Method</StartupObject>
   </PropertyGroup>
 
 </Project>
