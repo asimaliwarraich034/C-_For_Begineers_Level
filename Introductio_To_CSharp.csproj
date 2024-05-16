@@ -5,7 +5,11 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Introductio_To_CSharp.Day20.Convert_ToString_ToString</StartupObject>
+    <StartupObject>Introductio_To_CSharp.Day20.String_StringBuilder</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Day21\" />
+  </ItemGroup>
 
 </Project>
