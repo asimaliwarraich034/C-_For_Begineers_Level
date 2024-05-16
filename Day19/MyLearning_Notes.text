@@ -46,3 +46,20 @@ In .Net every Type is directly and indirectly inherit from system.object
 And system.object defines four methods(
 i) getTye,ii) gethashcode , iii) equal iV) to string 
 And all types in .Net  will have them in output of method reflaction.
+
+-----------------------------------------------------------
+-> Video No 55
+Early Binding: At compile Time we have the information about the class  
+and we create the instance of that class.
+
+
+late binding is slower than early binding. Because it load
+the an external assembly, resolve the type, create an instance
+at runtime.
+
+1. Early Binding can flag errors at compile time. While late
+binding there is a rsik of run time exception.
+2. Early Binding is much better for performance and should 
+always be preferreed over late binding. Use Late Binding only
+when working with an objects that are not available at compile time.
+
