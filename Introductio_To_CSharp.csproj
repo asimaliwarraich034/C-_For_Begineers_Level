@@ -8,4 +8,8 @@
     <StartupObject>Introductio_To_CSharp.Day21.Partail_Methods</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Day22\" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,5 @@
+-- Video No 64
+If you're a .Net Developer you familar with the Seesion state and Application state variable
+to store or reterive data from session state or application state varibale we use indexers...
+If you view the metadta of HttpSessionState class, you can see that there is an integral
+and string indexer defined.We use 'this'b keyword is used to crete indexersin c#. 
