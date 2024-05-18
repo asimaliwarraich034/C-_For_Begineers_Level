@@ -9,13 +9,55 @@ There are  4 Ways to make the method parameters oprtional
 4.Use optional Attributes  that is prsent in the system.Runtime.InteropServices namespace.
 
 In video we will discuss
+
 1. Use Parameters Array
 Parameter Array must be the last parameter in the formal parameter list . otherwie compile time error.
+
+Use the params keyword to allow a variable number of arguments to be passed to a method.
+***************
+public void AddNumbers(params int[] numbers) { /* Implementation */ }
+********************
 -------------------------------------------------------------------
 Video No 68
+
 -> 2. Method Ovverloading to make thre optional parameter
 --------------------------------------------------------------------
+
+Define multiple versions of a method with different parameters to allow flexible calling options.
+
+public void AddNumbers(int a, int b) { /* Implementation */ }
+public void AddNumbers(int a, int b, int[] rest) { /* Implementation */ }
+Specify Parameter Defaults:
+
 Video No 69
 -> 3 . Specifying Default parameter
+
+Provide default values for parameters in the method signature.
+
+*******************************
+public void AddNumbers(int a, int b, int c = 0) { /* Implementation */ }
+
+***********************************************
+
+           Named Parameters
+--------------------------------------------
+Video No 70 
+
+-> 4 optional Attributes
+optional Attributes must be appeared at the last of all required parameters
+
+Use the keyword =  [Optional] 
+and namespace System.Runtime.InteropServices 
+
+****
+using System.Runtime.InteropServices;
+public void AddNumbers(int a, int b, [Optional] int c) { /* Implementation */ }
+************************************************************************
+----------------
+->         Named Parameters
+
+-----------------------------------------
+
+
 
 
