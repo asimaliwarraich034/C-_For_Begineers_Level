@@ -3,3 +3,20 @@ If you're a .Net Developer you familar with the Seesion state and Application st
 to store or reterive data from session state or application state varibale we use indexers...
 If you view the metadta of HttpSessionState class, you can see that there is an integral
 and string indexer defined.We use 'this'b keyword is used to crete indexersin c#. 
+------------------- Here is code od Asp.net web Application 
+
+Session["Session1"] = "Sesseion 1 Data ";
+            Session["Session2"] = "Session 2 Data";
+
+            Response.Write("Session 1 Data = " + Session[0].ToString());
+            Response.Write("<br/>");
+            Response.Write("Session 2 Data = " + Session["Session2"].ToString());
+            ----------------------------------------------------------------------------
+
+-> Video no 65
+Example of creating indexe
+
+---------------------------------------------------------
+Video No 66 
+    Overloading Indexers
+    Indexers are overloaded based on the number and type of parameters.
