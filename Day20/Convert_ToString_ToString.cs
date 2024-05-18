@@ -14,9 +14,9 @@ namespace Introductio_To_CSharp.Day20
             New_name n1 = null;
             //string str  = n1.ToString();
 
-            // string str = Convert.ToString(n1); // Handalled Null excption and print empty string 
+             string str = Convert.ToString(n1); // Handalled Null excption and print empty string 
 
-           // string str = n1.ToString(); // Null Exception Thrown 
+           //string str = n1.ToString(); // Null Exception Thrown 
 
             // when pass null object to this To string Convert class'
             // it convert to the empty string 
