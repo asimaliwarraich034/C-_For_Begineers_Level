@@ -1,0 +1,13 @@
+Video No 67
+
+------------> Optional Parameters
+
+There are  4 Ways to make the method parameters oprtional
+1. Use Parameters Array
+2.Method  Overloading
+3. Specify parametrs defaults
+4.Use optional Attributes  that is prsent in the system.Runtime.InteropServices namespace.
+
+In video we will discuss
+1. Use Parameters Array
+Parameter Array must be the last parameter in the formal parameter list . otherwie compile time error .q
